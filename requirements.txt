@@ -1,0 +1,16 @@
+# requirements.txt
+
+# Frameworks de la App
+fastapi
+uvicorn[standard]
+streamlit
+
+# Google y Base de Datos
+google-generativeai
+python-dotenv
+chromadb
+
+# Lectura de Archivos (Ingesta)
+python-docx
+PyMuPDF
+pandas
