@@ -1,15 +1,11 @@
-# create_database.py
-
 import os
 import chromadb
 import google.generativeai as genai
 from dotenv import load_dotenv
 
-# Importa las funciones desde tu nuevo módulo de ingesta
 from ingest import load_all_documents, chunk_text
 
 if __name__ == "__main__":
-    # --- Configuración ---
     load_dotenv()
     print("Configurando API Key...")
     try:
