@@ -82,8 +82,9 @@ async def query(request: QueryRequest):
 
         documents = []
         for result in search_response.results:
-            # Imprime el documento completo para depuración
-            #print(f"Documento cargado desde Vertex AI Search: {result.document}")
+         for result in search_response.results:
+             doc_content = None
+             # … rest of processing logic …
 
             doc_content = None
             if result.document:
