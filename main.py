@@ -172,8 +172,3 @@ Pregunta: {user_query}
     # 4. Retorna la respuesta
     return {"response": gemini_response}
 
-"""if __name__ == "__main__":
-    import uvicorn
-    # Usa el puerto de la variable de entorno PORT si está disponible, de lo contrario, usa 8080
-    uvicorn.run(app, host="0.0.0.0", port=int(os.environ.get("PORT", 8080)))
-"""
