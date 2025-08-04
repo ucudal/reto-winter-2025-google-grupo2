@@ -15,6 +15,12 @@ __pycache__/
 *$py.class
 *.so
 .Python
+# Additional caches / artefacts
+.mypy_cache/
+.pytest_cache/
+.coverage
+build/
+dist/
 
 # IDE
 .vscode/
