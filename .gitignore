@@ -1,3 +1,27 @@
-*env*
-valiant-complex-467519-d3-39cbc6a49594.json
-*pycache*
+# Environment files
+.env
+.venv/
+env/
+venv/
+
+# Google Cloud credentials
+*.json
+*-key.json
+service-account-*.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
