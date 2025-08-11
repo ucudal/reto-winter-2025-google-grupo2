@@ -1,0 +1,10 @@
+functions-framework==3.*
+requests
+markdown
+pdfkit
+google-auth
+google-cloud-storage
+flask
+reportlab
+weasyprint
+pyshorteners
