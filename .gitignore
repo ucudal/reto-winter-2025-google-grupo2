@@ -1,0 +1,33 @@
+# Environment files
+.env
+.venv/
+env/
+venv/
+
+# Google Cloud credentials
+*.json
+*-key.json
+service-account-*.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+# Additional caches / artefacts
+.mypy_cache/
+.pytest_cache/
+.coverage
+build/
+dist/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
